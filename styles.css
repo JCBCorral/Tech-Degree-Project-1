@@ -38,6 +38,7 @@ a:hover {
   list-style-type: none;
   margin: 0 auto;
   padding: 0;
+  
 }
 
 .nav .name {
@@ -62,20 +63,24 @@ header {
   overflow: hidden;
   padding-top: 60px;
 }
+
 header {
   line-height: 1.5;
 }
+
 header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 3px solid rgb(0, 0, 0);
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.4) rotate(720deg);
+  transition:cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
+
 .tag {
   background-color: #efefef;
   color: black;
@@ -380,3 +385,5 @@ form {
  .bottom-1 {
   margin: auto;
  } 
+
+/*End of Hobbies Page with pictures for Extra Credit*/
